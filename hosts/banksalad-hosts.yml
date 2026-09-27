@@ -1,0 +1,143 @@
+generated: '2026-09-27'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 11
+  own: 10
+  other_domain: 0
+  platform: 1
+  roles:
+  - api
+  - legal
+  - marketing
+  - other
+  - source
+  - support
+  - website
+hosts:
+- host: api.banksalad.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: banksalad.com
+  role: api
+  relation: own
+- host: app.banksalad.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: banksalad.com
+  role: other
+  relation: own
+- host: banksalad.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: banksalad.com
+  role: other
+  relation: own
+- host: blog.banksalad.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - Blog
+  serves: []
+  registrable_domain: banksalad.com
+  role: marketing
+  relation: own
+- host: corp.banksalad.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: banksalad.com
+  role: other
+  relation: own
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: go.banksalad.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: banksalad.com
+  role: other
+  relation: own
+- host: help.banksalad.com
+  found_by:
+  - probed
+  - site-links
+  - docs-index
+  - well-known
+  types: []
+  serves:
+  - docs
+  registrable_domain: banksalad.com
+  role: support
+  relation: own
+- host: link.banksalad.com
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: banksalad.com
+  role: other
+  relation: own
+- host: policies.banksalad.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - TermsOfService
+  - PrivacyPolicy
+  serves: []
+  registrable_domain: banksalad.com
+  role: legal
+  relation: own
+- host: www.banksalad.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  - Documentation
+  serves:
+  - docs
+  - cdn
+  vendor: cloudflare
+  registrable_domain: banksalad.com
+  role: website
+  relation: own
