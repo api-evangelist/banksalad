@@ -1,0 +1,7 @@
+---
+title: "[여의도 43층 사람들] VP of Engineering에게 무엇이든 물어보세요!"
+url: "https://blog.banksalad.com/pnc/team-interview-vpe/"
+date: "2022-05-27"
+feed_url: "https://blog.banksalad.com/rss.xml"
+---
+뱅크샐러드 VP of Engineering 정채상 님을 소개합니다! 뱅크샐러드는 실리콘밸리의 구글 본사에서 근무하시던 정채상 님을 VP of Engineering으로 모셨습니다! 1…

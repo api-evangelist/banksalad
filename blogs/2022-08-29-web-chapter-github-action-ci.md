@@ -1,0 +1,7 @@
+---
+title: "뱅크샐러드 Web chapter에서 GitHub Action 기반의 CI 속도를 개선한 방법"
+url: "https://blog.banksalad.com/tech/github-action-npm-cache/"
+date: "2022-08-29"
+feed_url: "https://blog.banksalad.com/rss.xml"
+---
+이 글은 대부분의 웹 프론트엔드에서 사용하는 Node.js와 Npm 을 사용하는 사례를 바탕으로 작성되었습니다. 안녕하세요 뱅크샐러드 웹 프론트엔드 엔지니어 조성동입니다. Web chapter 내 개발 과정의 많은 부분에서 GitHub Action…

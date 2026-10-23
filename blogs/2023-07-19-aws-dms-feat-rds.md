@@ -1,0 +1,7 @@
+---
+title: "사용법과 함께 작성해본 좌충우돌 AWS DMS 사용기 - feat. RDS 통합 이야기"
+url: "https://blog.banksalad.com/tech/dms/"
+date: "2023-07-19"
+feed_url: "https://blog.banksalad.com/rss.xml"
+---
+안녕하세요, 뱅크샐러드 Core Infra 팀의 DevOps Engineer 이재환 입니다. AWS DMS를 사용하면서 겪었던 경험들을 기반으로 기본적인 사용법에 대해 공유해보고자 합니다. RDS…

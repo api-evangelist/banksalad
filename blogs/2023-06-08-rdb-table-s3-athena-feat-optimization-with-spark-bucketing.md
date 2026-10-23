@@ -1,0 +1,7 @@
+---
+title: "점점 커지는 RDB Table, S3로 귀양 보내고 Athena로 불러오기 - feat. Optimization with Spark Bucketing"
+url: "https://blog.banksalad.com/tech/data-optimization-with-bucketing/"
+date: "2023-06-08"
+feed_url: "https://blog.banksalad.com/rss.xml"
+---
+안녕하세요, 뱅크샐러드 Core Infra 팀의 Data engineer 김문수 입니다. 점점 커지는 이력성 데이터를 MySQL에서 더 저렴한 저장소인 S3로 옮기면서도, 서비스에서 호출할 때 딱 필요한 데이터만 읽을 수 있도록 bucketing…
